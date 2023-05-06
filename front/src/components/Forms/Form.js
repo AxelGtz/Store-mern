@@ -4,28 +4,28 @@ import { device } from "../../global/globalcss";
 import FreeShip from "../../static/freeShip.png";
 
 const StyledLayout = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 550px;
-  width: 100%;
-  img {
-    display: none;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+    img {
+      display: none;
+    }
 
   ${device.desktop_small(`
-position: relative; 
-top: -20px;
- width: 80%;
- margin: 0 auto;
- img {
-   display:block;
-   width: 50%;
- }
-`)}
+    position: relative; 
+    top: -20px;
+    width: 80%;
+    margin: 0 auto;
+    img {
+       display:block;
+      width: 50%;
+    }
+  `)}
   ${device.desktop_full(`
-  top : 80px;
-`)}
+    top : 80px;
+  `)}
 `;
 
 const StyledForm = styled.form`

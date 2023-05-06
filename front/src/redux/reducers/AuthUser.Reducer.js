@@ -4,7 +4,6 @@ const INITIAL_STATE = {
     authenticated : false,
     credential : {}
 }
-
 function AuthUser (state = INITIAL_STATE, action) {
     switch(action.type){
         case SET_AUTHENTICATED : 
@@ -28,5 +27,4 @@ function AuthUser (state = INITIAL_STATE, action) {
         
     }
 }
-
 export default AuthUser;

@@ -98,7 +98,6 @@ export const GetUser = () => (dispatch) =>{
                     user : data.User
                 }
             })
-            
         }else if(data.status === 'failed') {
             dispatch({
                 type : SET_ERROR,
